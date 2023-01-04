@@ -1,0 +1,6 @@
+while true do wait(0,5)
+pcall(function()
+local null = game.Players.LocalPlayer.Character
+null.Head.Tag.Frame.Username:destroy()
+end)
+end
